@@ -1,0 +1,15 @@
+name: "Xiaozhi Youtube Music Server"
+description: "YouTube Music streaming proxy"
+version: "1.0.0"
+slug: "xiaozhi_music_server"
+init: false
+arch:
+  - aarch64
+  - amd64
+  - armv7
+ports:
+  7071/tcp: 7071
+map:
+  - share:rw
+options: {}
+schema: {}
